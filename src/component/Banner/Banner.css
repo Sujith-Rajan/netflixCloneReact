@@ -1,0 +1,58 @@
+.banner{
+   
+    background-size:cover;
+    height:95vh;
+    color: white;
+    text-align: center;
+
+}
+.fade{
+    height: 2vh;
+    background-color: #232323;
+}
+.banner-text{
+    position: relative;
+    top:30%;
+}
+.banner-text h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.banner-text p{
+    font-size: 1.5rem;
+}
+.banner-action{
+    position: relative;
+    top:36%;
+    
+    
+}
+.banner-action input{
+    height: 3.5rem;
+    width: 20%;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+
+}
+.banner-action button{
+    height: 3.5rem;
+    width: 15%;
+    margin-left:5px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+}
+input:focus::placeholder{
+ 
+  position: relative;
+  top:-15px;
+  font-size: .6rem;
+  color: white;
+  
+}
